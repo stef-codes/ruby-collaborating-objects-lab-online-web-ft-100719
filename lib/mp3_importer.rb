@@ -12,7 +12,7 @@ class MP3Importer
       Dir.glob(@path + '/*.mp3').each do |file|
         files << file.split("/").last
       end 
-      file
+      files
   end 
   
   def import 
