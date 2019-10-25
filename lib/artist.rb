@@ -33,7 +33,7 @@ class Artist
   end 
   
   def print_songs
-      puts @songs.each { |song| song
+      puts @songs.each { |song| song.name }
   end 
 
 
