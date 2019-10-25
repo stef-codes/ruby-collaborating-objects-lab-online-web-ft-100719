@@ -9,7 +9,7 @@ class MP3Importer
   
   def files
       files = []
-    Dir.glob(@path + '')
+    Dir.glob(@path + '/*')
   end 
   
   def import 
