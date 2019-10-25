@@ -9,9 +9,10 @@ class MP3Importer
   
   def files
       files = [] 
-    Dir.glob(@path + '/*.mp3').each do |file|
+      Dir.glob(@path + '/*.mp3').each do |file|
         files << file.split("/").last
-      
+      end 
+      file
   end 
   
   def import 
